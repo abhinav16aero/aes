@@ -1,5 +1,5 @@
 ---
-name: Tails Azimuth
+name: Abhinav Kumar
 avatar: /static/images/avatar.png
 occupation: Student of Aerospace Engineering
 company: IIT Kharagpur
