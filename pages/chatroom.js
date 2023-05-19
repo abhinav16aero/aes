@@ -1,9 +1,9 @@
 import siteMetadata from '@/data/siteMetadata'
-import projectsData from '@/data/AlumData'
+import AlumData from '@/data/AlumData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 
-export default function Chat with Alumni() {
+export default function ChatwithAlumni() {
   return (
     <>
       <PageSEO title={` Alumni - ${siteMetadata.author}`} description={siteMetadata.description} />
@@ -18,7 +18,7 @@ export default function Chat with Alumni() {
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
+            {AlumData.map((d) => (
               <Card
                 key={d.title}
                 title={d.title}
