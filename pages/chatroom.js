@@ -1,6 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import AlumData from '@/data/AlumData'
-import Card from '@/components/Card'
+import AlumCard from '@/components/AlumCard'
 import { PageSEO } from '@/components/SEO'
 
 export default function ChatwithAlumni() {
@@ -19,7 +19,7 @@ export default function ChatwithAlumni() {
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
             {AlumData.map((d) => (
-              <Card
+              <AlumCard
                 key={d.title}
                 title={d.title}
                 description={d.description}
