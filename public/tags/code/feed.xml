@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Aerospace Engineering Society</title>
+      <link>https://www.google.com/blog</link>
+      <description>A Website created by Abhinav Kumar</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Abhinav Kumar)</managingEditor>
+      <webMaster>address@yoursite.com (Abhinav Kumar)</webMaster>
+      <lastBuildDate>Tue, 08 Mar 2016 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.google.com/tags/code/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.google.com/blog/code-sample</guid>
+    <title>Sample .md file</title>
+    <link>https://www.google.com/blog/code-sample</link>
+    <description>Example of a markdown file with code blocks and syntax highlighting</description>
+    <pubDate>Tue, 08 Mar 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Abhinav Kumar)</author>
+    <category>markdown</category><category>code</category><category>features</category>
+  </item>
+
+    </channel>
+  </rss>

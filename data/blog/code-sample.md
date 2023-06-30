@@ -1,38 +1,23 @@
 ---
-title: Sample .md file
-date: '2016-03-08'
-tags: ['markdown', 'code', 'features']
+title: 'Title'
+date: '2000-00-01'
+tags: ['me', 'you', 'the']
 draft: false
-summary: Example of a markdown file with code blocks and syntax highlighting
+summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed posuere nisi. Curabitur ac nisi mi. Donec facilisis quam id ipsum interdum ullamcorper. Nunc in feugiat mi, et gravida turpis. Donec mollis, est a volutpat tempor, lectus nibh hendrerit lacus, nec consequat arcu sapien at sem. Proin vitae turpis id lorem volutpat'
 ---
 
-A sample post with markdown.
+# Lorem ipsum dolor sit
 
-## Inline Highlighting
+_Title_: The title
 
-Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
+_Author_: Abhinav
 
-## Code Blocks
+_Subject_: Social
 
-Some Javascript code
+_Language_: English
 
-```javascript
-var num1, num2, sum
-num1 = prompt('Enter first number')
-num2 = prompt('Enter second number')
-sum = parseInt(num1) + parseInt(num2) // "+" means "add"
-alert('Sum = ' + sum) // "+" means combine into a string
-```
+_Source_: [Project](https://www.google.com)
 
-Some Python code 🐍
+## Introduction
 
-```python
-def fib():
-    a, b = 0, 1
-    while True:            # First iteration:
-        yield a            # yield 0 to start with and then
-        a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
-
-for index, fibonacci_number in zip(range(10), fib()):
-     print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
-```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed posuere nisi. Curabitur ac nisi mi. Donec facilisis quam id ipsum interdum ullamcorper. Nunc in feugiat mi, et gravida turpis. Donec mollis, est a volutpat tempor, lectus nibh hendrerit lacus, nec consequat arcu sapien at sem. Proin vitae turpis id lorem volutpat

@@ -1,30 +1,23 @@
 ---
-title: Introducing Multi-part Posts with Nested Routing
-date: '2021-05-02'
-tags: ['multi-author', 'next-js', 'feature']
+title: 'Title'
+date: '2000-00-01'
+tags: ['me', 'you', 'the']
 draft: false
-summary: 'The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!'
+summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed posuere nisi. Curabitur ac nisi mi. Donec facilisis quam id ipsum interdum ullamcorper. Nunc in feugiat mi, et gravida turpis. Donec mollis, est a volutpat tempor, lectus nibh hendrerit lacus, nec consequat arcu sapien at sem. Proin vitae turpis id lorem volutpat'
 ---
 
-# Nested Routes
+# Lorem ipsum dolor sit
 
-The blog template supports posts in nested sub-folders. This helps in organisation and can be used to group posts of similar content e.g. a multi-part series. This post is itself an example of a nested route! It's located in the `/data/blog/nested-route` folder.
+_Title_: The title
 
-## How
+_Author_: Abhinav
 
-Simplify create multiple folders inside the main `/data/blog` folder and add your `.md`/`.mdx` files to them. You can even create something like `/data/blog/nested-route/deeply-nested-route/my-post.md`
+_Subject_: Social
 
-We use Next.js catch all routes to handle the routing and path creations.
+_Language_: English
 
-## Use Cases
+_Source_: [Project](https://www.google.com)
 
-Here are some reasons to use nested routes
+## Introduction
 
-- More logical content organisation (blogs will still be displayed based on the created date)
-- Multi-part posts
-- Different sub-routes for each author
-- Internationalization (though it would be recommended to use [Next.js built-in i8n routing](https://nextjs.org/docs/advanced-features/i18n-routing))
-
-## Note
-
-- The previous/next post links at bottom of the template are currently sorted by date. One could explore modifying the template to refer the reader to the previous/next post in the series, rather than by date.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed posuere nisi. Curabitur ac nisi mi. Donec facilisis quam id ipsum interdum ullamcorper. Nunc in feugiat mi, et gravida turpis. Donec mollis, est a volutpat tempor, lectus nibh hendrerit lacus, nec consequat arcu sapien at sem. Proin vitae turpis id lorem volutpat
