@@ -1,36 +1,7 @@
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
-const { withSentryConfig } = require('@sentry/nextjs');
-const execSync = require("child_process").execSync;
 
-const lastCommitCommand = "git rev-parse HEAD";
-
-const moduleExports = {
- // Your existing module.exports
-   async generateBuildId() {
-     return execSync(lastCommitCommand).toString().trim();
-   },
-  /* Code for redirect Old URL to New URL */
- async redirects() {
-   return [
-     {
-      source: "/seller/SERENDIPITY/",
-      destination: "/",
-      permanent: true,
-     },
-   ];
- },
- trailingSlash: true,
- // generateEtags: false,
- distDir: "dist",
- sentry: {
-   disableServerWebpackPlugin: true,
-   disableClientWebpackPlugin: true,
- },
-};
-
-module.exports = withSentryConfig(moduleExports);
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
